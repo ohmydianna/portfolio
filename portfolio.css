@@ -1,0 +1,125 @@
+body{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(developer.jpeg);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: sticky;
+    background-color: #ffff;
+    color: #555;
+    height: 500px;
+    width: auto;
+}
+
+header{
+   padding: 30px 30px;
+}
+
+/*******nav***********/    
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+    display: inline-block;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+    display: inline-block;
+}
+nav ul li {
+	float: right;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: gainsboro;
+}
+
+/*link*/
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+a:active {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+.aboutme{
+    color: white;
+}
+
+.contact{
+    color: white;
+}
+
+h1,
+p{
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px
+}
+
+.btn1,
+.btn2{
+     background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+.btn1{
+    background-color: red;
+    transition-duration: 0.4s;
+}
+.btn2{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn1:hover{opacity: .6}
+.btn2:hover{opacity: .6}
+
+footer{
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: darkgrey;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+
+
